@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2017-08-30</Date>
+  <Beta>True</Beta>
+  <Category>Network:Tools:Cloud</Category>
+  <Name>Gogs</Name>
+  <Project>https://gogs.io/</Project>
+  <Changes>
+[center][img width='155px' src='https://github.com/itoutline/docker-templates/blob/master/Icons/gogs.png'][/center]
+
+[center][font size=4]Gogs Change Log[/font][/center]
+
+[font size=3]2017.08.30[/font]
+- Initial Release
+  </Changes>
+  <Overview>
+    Gogs is a painless self-hosted Git service.
+  </Overview>
+  <Description>
+- Activity timeline
+- SSH and HTTP/HTTPS protocols
+- SMTP/LDAP/Reverse proxy authentication
+- Reverse proxy with sub-path
+- Account/Organization/Repository management
+- Add/Remove repository collaborators
+- Repository/Organization webhooks (including Slack and Discord)
+- Repository Git hooks/deploy keys
+- Repository issues, pull requests, wiki and protected branches
+- Migrate and mirror repository and its wiki
+- Web editor for repository files and wiki
+- Jupyter Notebook
+- Two-factor authentication
+- Gravatar and Federated avatar with custom source
+- Mail service
+- Administration panel
+- Supports MySQL, PostgreSQL, SQLite3, MSSQL and TiDB (via MySQL protocol)
+- Multi-language support (25 languages)
+  </Description>
+  <Registry>https://hub.docker.com/r/gogs/gogs/</Registry>
+  <GitHub>https://github.com/gogits/gogs</GitHub>
+  <Repository>gogs/gogs</Repository>
+  <Support>https://github.com/gogits/gogs/tree/master/docker</Support>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/Gogs</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <Banner></Banner>
+  <Icon>https://github.com/itoutline/docker-templates/blob/master/Icons/gogs.png</Icon>
+</Containers>
