@@ -6,7 +6,7 @@
   <Name>Gogs</Name>
   <Project>https://gogs.io/</Project>
   <Changes>
-[center][img width='155px' src='https://github.com/itoutline/docker-templates/blob/master/Icons/gogs.png'][/center]
+[center][img width='155px' src='https://raw.githubusercontent.com/itoutline/docker-templates/master/Icons/gogs.png'][/center]
 
 [center][font size=4]Gogs Change Log[/font][/center]
 
@@ -56,5 +56,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <Banner></Banner>
-  <Icon>https://github.com/itoutline/docker-templates/blob/master/Icons/gogs.png</Icon>
+  <Icon>https://raw.githubusercontent.com/itoutline/docker-templates/master/Icons/gogs.png</Icon>
 </Containers>
