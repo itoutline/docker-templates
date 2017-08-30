@@ -3,7 +3,7 @@
   <Date>2017-08-30</Date>
   <Beta>True</Beta>
   <Category>Network:Tools:Cloud</Category>
-  <Name>Gogs</Name>
+  <Name>gogs</Name>
   <Project>https://gogs.io/</Project>
   <Changes>
 [center][img width='155px' src='https://raw.githubusercontent.com/itoutline/docker-templates/master/Icons/gogs.png'][/center]
@@ -60,7 +60,7 @@
   <Environment/>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/Gogs</HostDir>
+      <HostDir>/mnt/cache/appdata/gogs</HostDir>
       <ContainerDir>/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
