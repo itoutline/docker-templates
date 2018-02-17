@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2018-02-17</Date>
+  <Beta>True</Beta>
+  <Category>Network:Tools:Cloud</Category>
+  <Name>Partkeepr</Name>
+  <Project>https://partkeepr.org</Project>
+  <Changes>
+  </Changes>
+  <Description>
+  Open Source Inventory Management
+  </Description>
+  <Registry>https://hub.docker.com/r/mhubig/partkeepr/</Registry>
+  <GitHub>https://github.com/mhubig/docker-partkeepr</GitHub>
+  <Repository>mhubig/partkeepr</Repository>
+  <Support></Support>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>10333</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/partkeepr</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:10333]</WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/itoutline/docker-templates/master/Icons/partkeepr.png</Icon>
+</Containers>
