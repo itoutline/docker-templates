@@ -30,7 +30,7 @@
   <Data>
     <Volume>
       <HostDir>/mnt/cache/appdata/partkeepr</HostDir>
-      <ContainerDir>/data</ContainerDir>
+      <ContainerDir>/var/www/html/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
